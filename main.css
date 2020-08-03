@@ -6,7 +6,7 @@
 
 body {
     height: 100vh;
-    background-image: url('images/images-2.jpg');
+    background-image: linear-gradient(to bottom,rgb(97, 24, 24),rgb(8, 136, 125));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

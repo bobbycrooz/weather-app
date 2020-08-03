@@ -20,10 +20,12 @@ window.onload = function(){
 
 function drawWeather(d){
     var cel = Math.round(parseFloat(d.main.temp)-273.15);
+    var cloudID = d.weather[0].icon
     document.getElementById('discription').innerHTML=d.weather[0].description;
     document.getElementById('temp').innerHTML=cel+"&deg; C"
     document.getElementById('country').innerHTML=d.sys.country
     document.getElementById('name').innerHTML=d.name
+    document.getElementById('cloudicon').src = "http://openweathermap.org/img/wn/"+cloudID+"@2x.png"
 
 
     

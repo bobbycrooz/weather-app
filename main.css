@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(images/images-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(228, 228, 228);
+
+}
+
+/* .container {
+    width: 300px;
+    margin: 100px auto;
+} */
+
+.card1 {
+    padding: 10px;
+    width: 100%;
+    margin: 100px auto;
+   
+    text-align: center;
+}
+
+#temp {
+    font-size: 120px;
+    color: rgb(195, 195, 196);
+    text-shadow: black;
+}
+
+#discription {
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+
+.details {
+    
+    font-size: 30px;
+}
+
+.card2 {
+    padding: 10px;
+    width: 100%;
+    margin: 100px auto;
+    
+    text-align: center;
+}
+
+button {
+    background-image: linear-gradient(to right,rgb(247, 167, 167),rgb(83, 83, 165));
+    
+}
+#gsearch {
+    outline: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 1px 10px 0 rgba(10, 10, 9, 0.582);
+}
+
+input {
+    background-image: linear-gradient(to right,c,rgb(167, 225, 248));
+}

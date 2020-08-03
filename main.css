@@ -6,7 +6,7 @@
 
 body {
     height: 100vh;
-    background-image: url(images/images-2.jpg);
+    background-image: linear-gradient(to bottom,rgb(97, 24, 24),rgb(8, 136, 125));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,16 +14,25 @@ body {
 
 }
 
-/* .container {
-    width: 300px;
+.container {
     margin: 100px auto;
-} */
+    background-image: url("images/images-2.jpg");
+    background-size: cover;
+}
+
+hr {
+    height: 5px;
+    border-radius: 30px;
+    background-color: aquamarine;
+    width: 300px;
+    
+    
+}
 
 .card1 {
     padding: 10px;
     width: 100%;
-    margin: 100px auto;
-   
+   border-radius: 50px;
     text-align: center;
 }
 
@@ -47,8 +56,6 @@ body {
 .card2 {
     padding: 10px;
     width: 100%;
-    margin: 100px auto;
-    
     text-align: center;
 }
 
